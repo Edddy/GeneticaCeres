@@ -1,0 +1,31 @@
+
+
+
+/*------------------------------------*/
+/* Layout general   				  */
+/*------------------------------------*/
+#wrapper
+{
+	text-align: left;
+	width: 100%;
+	background-color: White;
+	border: 0;
+
+}
+#nicetouch, #userdata, #footer, .noprint
+{
+	display: none;
+}
+#header {}
+#logo
+{
+	margin: 0px;
+	float: left;
+	}
+#content
+{
+	clear: both;
+	padding: 5px;
+	min-height: 400px;
+	}
+

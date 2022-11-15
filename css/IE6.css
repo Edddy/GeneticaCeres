@@ -1,0 +1,23 @@
+﻿/* paso los png como filters */
+#logo a  
+{
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo-ceres-nucleo-genetico-porcino.png',sizingMethod='scale');
+}
+#inta a  
+{
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/inta-mgc-mejoramiento-genetico-de-cerdos.png',sizingMethod='scale');
+}	
+#nav li a {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/back-nav-un.png',sizingMethod='scale');
+}
+#nav li a:hover, #nav li a.active  {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/back-nav.png',sizingMethod='scale');
+}
+#content 
+{
+	height: 400px;
+}
